@@ -1,0 +1,478 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background: linear-gradient(234deg, #a100a7, rgb(255, 0, 0));
+    
+    
+}
+
+.all
+{
+    background-color: #070c27;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.sign
+{
+    background-color: #8F00FF;
+    border: 2px dashed transparent;
+    padding-left: 25px;  
+    padding-right: 25px;
+    transition: all .4s;
+}
+.sign:hover{
+    transform: scale(4.2);
+    background: linear-gradient(234deg, #ff002b, rgb(180, 0, 235));
+    color: #ffffff ;
+   
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.wel
+{
+    font-weight: 1000;
+    font-size: 50px;
+    width: 20px;
+    margin-left: 10%;
+    margin-top: 35px;
+    color: rgb(255, 255, 255);
+}
+nav
+{
+    margin-left: 40%;
+    margin-top: -3%;
+    transition: all 3s;
+
+}
+a:hover
+{
+    color: #ff002b;
+}
+a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+h3
+{
+    position: relative;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 10%;
+    top: 250px;
+}
+.con
+
+{
+    position: relative;
+    font-size: 90px;
+    color: aliceblue;
+    margin-left: 9%;
+    top: 200px;
+    
+}
+.first
+{
+    position: relative;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 9%;
+    top: 200px;
+    color: aliceblue;
+
+}
+.md
+{
+    margin-left: 60%;
+    margin-top: -7%;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    font-size: 17px;
+    width: 400px;
+    background: linear-gradient(150deg, rgb(255, 0, 106), blue);
+    box-shadow: 16px 19px 10px -1px rgba(183, 0, 255, 0.15),
+    6px 7px 1px 7px rgba(255, 0, 106, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    transition: all .5s;
+
+}
+.md:hover{
+    
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+h2
+{
+    margin-left: 9%;
+    margin-top: 100px;
+    background: linear-gradient(150deg, rgb(255, 0, 106), blue);
+    box-shadow: 6px 6px 10px -1px rgba(183, 0, 255, 0.15),
+    -10px -10px 10px -1px rgba(161, 0, 40, 0.7);
+    border-radius: 50px;
+    width: 150px;
+    padding: 30px;
+    color: white;
+    transition: transform .4s;
+}
+h2:hover
+{
+   transform: translateY(-10px);
+ 
+}
+.cards
+{
+      background: linear-gradient(150deg, rgb(255, 0, 106), blue);
+      width: 230px;
+      margin-left: 6%;
+      margin-top: 190px;
+      text-align: center;
+      font-size: 19px;
+      color: aliceblue;
+      padding: 20px;
+      text-transform: capitalize;
+      border-radius: 10px;
+      box-shadow: 1px 6px 10px 2px rgba(255, 0, 0, 0.411),
+      6px 1px 1px 2px rgba(92, 2, 2, 0.288);
+}
+.add
+{
+    
+    background: rgb(51, 2, 51);
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 17px;
+    text-align: center;
+    padding: 15px;
+}
+.card2
+{
+    background: linear-gradient(150deg, rgb(255, 0, 106), blue);
+    width: 230px;
+    margin-left: 29%;
+    margin-top: -190px;
+    text-align: center;
+    font-size: 19px;
+    color: aliceblue;
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 1px 6px 10px 2px rgba(255, 0, 0, 0.411),
+    6px 1px 1px 2px rgba(92, 2, 2, 0.288);
+
+}
+.card3
+{
+    background: linear-gradient(300deg, rgb(255, 0, 106), blue);
+    width: 230px;
+    margin-left:  52%;
+    margin-top: -220px;
+    text-align: center;
+    font-size: 19px;
+    color: aliceblue;
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    box-shadow: 1px 6px 10px 2px rgba(255, 0, 0, 0.411),
+    6px 1px 1px 2px rgba(92, 2, 2, 0.288);
+
+}
+.card4
+{
+    color: aliceblue;
+    margin-left: 76%;
+    margin-top: -295px;
+    font-weight: bold;
+   
+}
+#p2
+{
+    width: 230px;
+    padding: 15px;
+}
+#get
+{
+    background: linear-gradient(300deg, rgb(255, 0, 106), blue);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
+.choose
+{
+    position: relative;
+    color: aliceblue;
+    margin-left: 52%;
+ 
+}
+#us
+{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 250px;
+}
+#it
+{
+    margin-top: -20px;
+    font-size: 14px;
+}
+.foor
+{
+    position: relative;
+    margin-left: 50%;
+    
+}
+#lione,#litwo,#lithree,#lifour{
+    color: #ffffff;
+    list-style: none;
+    padding: 19px;
+    background: linear-gradient(300deg, rgb(255, 0, 106), blue);
+    width: 300px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+img
+{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -290px;
+    width: 450px;
+    height: 250px;
+    background: linear-gradient(300deg, rgb(255, 0, 106), blue);
+    padding: 20px;
+    border-radius:  50px 0px 50px 15px;
+    box-shadow: rgba(255, 255, 255, ) 0px 10px 50px;
+}
+.price
+{
+    position: relative;
+    color: aliceblue;
+    background: linear-gradient(300deg, rgb(35, 1, 36), rgb(141, 2, 165));
+    padding: 20px;
+    width: 60%;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 90px;
+    height: 500px;
+    text-align: center;
+}
+#pr{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.basic
+{
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(255, 0, 43), rgb(53, 2, 49));
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    width: 200px;
+    margin-left: 28%;
+    margin-top: -21%;
+}
+#bas
+{
+    text-transform: capitalize;
+}
+#st
+{
+    background: linear-gradient(90deg, rgb(88, 0, 49), rgb(105, 0, 126));
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    transition: all 1s;
+}
+#st:hover
+{
+    background: transparent;
+    border: 2px solid #8F00FF ;
+    color: #8F00FF ;
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.basic2
+{
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(255, 0, 43), rgb(53, 2, 49));
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 17px;
+    width: 200px;
+    margin-left: 52%;
+    margin-top: -21%;
+
+}
+.steps
+{
+    background-color: #070c27;
+    padding: 15px;
+    margin-top: 8%;
+}
+#ite
+{
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.item1
+{
+    color: aliceblue;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 190px;
+    
+    margin-left: 10%;
+    margin-top: 100px;
+    letter-spacing: 1px;
+}
+#ips
+{
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: justify;
+}
+
+/*
+#co1
+{
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: justify;
+    padding: 10px;
+}*/
+.noop{
+    margin-left: 9%;
+    color: rgb(255, 0, 0);
+    width: 30%;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+.item2
+{
+    color: aliceblue;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 190px;
+    
+    margin-left: 60%;
+    margin-top: -210px;
+    letter-spacing: 1px;
+}
+#ips2
+{
+    margin-left: 60%;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: justify;
+}
+.noop2
+{
+    margin-left: 59%;
+    color: rgb(255, 0, 0);
+    width: 30%;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+.item3
+{
+    color: aliceblue;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 190px;
+    
+    margin-left: 10%;
+    margin-top: 90px;
+    letter-spacing: 1px;
+}
+#ips3
+{
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: justify;
+}
+.noop3
+{
+    margin-left: 9%;
+    color: rgb(255, 0, 0);
+    width: 30%;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+.item4
+{
+    color: aliceblue;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 190px;
+    
+    margin-left: 60%;
+    margin-top: -210px;
+    letter-spacing: 1px;
+}
+
+#ips4
+{
+    margin-left: 60%;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    text-align: justify;
+}
+.noop4
+{
+    margin-left: 59%;
+    color: rgb(255, 0, 0);
+    width: 30%;
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+.noop:hover
+{
+    color: #ffffff;
+   
+}
+.noop2:hover
+{
+    color: #ffffff;
+   
+}
+.noop3:hover
+{
+    color: #ffffff;
+   
+}
+.noop4:hover
+{
+    color: #ffffff;
+   
+}
+
+span{
+    color: #ff002b;
+}
+
